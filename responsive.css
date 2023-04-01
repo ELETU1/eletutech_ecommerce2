@@ -1,0 +1,194 @@
+@media (max-width: 990px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 950px;
+    flex-direction: column;
+  }
+
+  .btnAll {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .cardContent h1 {
+    font-size: 1.5rem;
+  }
+
+  .productCard {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .navbar {
+    max-width: 670px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--mainColor);
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    display: none;
+  }
+
+  nav li {
+    margin-bottom: 1em;
+  }
+
+  nav a {
+    color: var(--ternary);
+    font-size: 1.2rem;
+  }
+
+  .icons .fas {
+    font-size: 1.2rem;
+  }
+
+  #menubar {
+    display: inline-block;
+  }
+
+  .contentBox {
+    width: 85%;
+  }
+
+  .contentBox h1 {
+    font-size: 2.2rem;
+    margin-top: 0.5em;
+  }
+
+  .shopping {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .btn {
+    width: 25%;
+    padding: 0.8em;
+    font-size: 1rem;
+  }
+
+  .imgContainer img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cards {
+    width: 90%;
+  }
+
+  .btnAll {
+    width: 35%;
+  }
+
+  .cardContent {
+    text-align: right;
+  }
+
+  .cards img {
+    width: 80%;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .brands {
+    flex-direction: row;
+  }
+
+  .footer {
+    flex-direction: row;
+  }
+
+  .footerText {
+    width: 40%;
+    margin-bottom: 1em;
+  }
+
+  .footerText h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .btn {
+    width: 30%;
+  }
+
+  .cards img {
+    width: 50%;
+  }
+
+  .btnAll {
+    width: 50%;
+  }
+}
+
+@media (max-width: 568px) {
+  html {
+    font-size: 12px;
+  }
+
+  .navbar {
+    max-width: 530px;
+  }
+
+  .logoContainer img {
+    width: 80px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .contentBox h1 {
+    text-align: center;
+  }
+
+  .btn {
+    width: 40%;
+  }
+
+  .btnAll {
+    width: 100%;
+  }
+
+  .cardContent h1 {
+    font-size: 1.2rem;
+  }
+
+  .productCard {
+    width: 80%;
+  }
+
+  .productCard img {
+    height: 200px;
+  }
+
+  .brands {
+    flex-direction: column;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footerText {
+    width: 80%;
+    margin-bottom: 1em;
+  }
+}
